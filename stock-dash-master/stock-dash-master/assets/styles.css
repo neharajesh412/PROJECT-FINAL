@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  /* background-color: black; */
+  background-image: url(back3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  
+}
+.container {
+  display: flex;
+}
+
+.nav {
+  position: fixed;
+  width: 25vw;
+  /* height: 50em; */
+  margin:20px;
+  margin-top:10em;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: rgba(91, 11, 73, 0.673);
+
+}
+
+.content {
+  width: 60vw;
+  position: relative;
+  height:fit-content;
+  right: -400px;
+  margin:20px;
+  margin-top:10em;
+  margin-bottom:2px;
+  padding: 1rem 5rem;
+  background-color:rgba(249, 234, 140, 0.738);
+  border-radius: 12px;
+}
+
+.start {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 246, 73);
+}
+
+.input-place p {
+  color: antiquewhite;
+  margin-left: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.form {
+  display: flex;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: 1.5rem;
+}
+.form button {
+  width: 5rem;
+  
+  margin-left: 4px;
+  border-radius: 12px;
+  background-color: rgb(253, 154, 5);
+  color: black;
+  border: none;
+}
+.buttons {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  
+  justify-content: space-around;
+}
+#forecast {
+  margin-top: 2rem;
+  border-radius: 12px;
+  height: 2.2rem;
+}
+#n_days {
+  height: 2rem;
+  width: 11rem;
+  border-radius: 12px;
+  padding-left: 5px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.buttons button {
+  width: 9.5rem;
+  height: 2.5rem;
+  border: none;
+  font-size:20px;
+  border-radius: 12px;
+  background-color: rgb(238, 177, 246);
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header p {
+  font-size: 4rem;
+  align-items: center;
+  margin-left: 3rem;
+  line-height: 80%;
+}
+
+#logo {
+  max-width: 15rem;
+  height: auto;
+}
